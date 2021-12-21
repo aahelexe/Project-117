@@ -1,0 +1,24 @@
+body{
+    background-color: cornsilk;
+}
+h1 {
+    color: orangered;
+    background-color:limegreen;
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: maroon;
+}
+#sketch{
+    float:left;
+    margin-left: 1px;
+}
+#timer {
+    float:right;
+    margin-right: 50px;
+}

@@ -1,0 +1,10 @@
+random_no = Math.floor((Math.random()*quick_draw_data_set.length)+1);
+elementarray= quick_draw_data_set[random_no];
+console.log(elementarray);
+random_sketchname=elementarray;
+document.getElementById("sketch").innerHTML='Sketch to be drawn :'+random_sketchname;
+time_counter=0;
+timecheck="";
+drawn_sketch="";
+answer_holder="";
+score=0;
